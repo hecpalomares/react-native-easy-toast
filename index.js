@@ -83,6 +83,7 @@ export default class Toast extends Component {
 
   render() {
     let pos;
+    console.log(pos);
     switch (pos) {
       case 'top':
         pos = this.props.positionValue;
